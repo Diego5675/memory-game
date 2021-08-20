@@ -1,0 +1,40 @@
+html[data-difficulty="easy"] {
+  --width: 640px;
+  --height: 640px;
+  --columns: 4;
+  --rows: 3;
+}
+
+html[data-difficulty="normal"] {
+  --width: 640px;
+  --height: 640px;
+  --columns: 5;
+  --rows: 4;
+}
+
+html[data-difficulty="hard"] {
+  --width: 800px;
+  --height: 640px;
+  --columns: 8;
+  --rows: 5;
+}
+
+body {
+  grid-auto-flow: column;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: initial;
+}
+
+.main {
+  padding: 10px;
+}
+
+.aside {
+  flex-direction: column;
+}
+
+.memory-game {
+  width: var(--width);
+  height: var(--height);
+  grid-template: repeat(var(--rows), 1fr) / repeat(var(--columns), 1fr);
+}

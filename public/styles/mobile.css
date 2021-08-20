@@ -1,0 +1,28 @@
+html[data-difficulty="easy"] {
+  --columns: 3;
+  --rows: 4;
+}
+
+html[data-difficulty="normal"] {
+  --columns: 4;
+  --rows: 5;
+}
+
+html[data-difficulty="hard"] {
+  --columns: 5;
+  --rows: 8;
+}
+
+body {
+  grid-template-rows: 8fr 1fr;
+}
+
+.main {
+  padding: 10px;
+}
+
+.memory-game {
+  width: 100%;
+  height: 100%;
+  grid-template: repeat(var(--rows), 1fr) / repeat(var(--columns), 1fr);
+}
