@@ -53,6 +53,12 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  width: 300px;
+  height: 70px;
+  margin-bottom: 40px;
+}
+
 .btn-difficulty {
   width: 100px;
   font-size: 2rem;
@@ -128,6 +134,11 @@ button {
   cursor: pointer;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+}
+
 .btn-action {
   margin: 0 10px;
   padding: 5px 15px;
@@ -136,6 +147,12 @@ button {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--active-color);
+}
+
+.btn-difficulty:hover,
+.btn-action:hover {
+  color: var(--background-color);
+  background-color: var(--active-color);
 }
 
 .btn-color {
@@ -213,4 +230,18 @@ button {
 
 .main__error-text {
   font-size: 25px;
+}
+
+.counter {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin: 0 20px;
+}
+
+.hours::after,
+.minutes::after {
+  content: ":";
+  margin: 0 15px;
 }
