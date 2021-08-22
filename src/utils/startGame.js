@@ -115,7 +115,7 @@ const startGame = (numOfCards) => {
 
   (function shuffleBoard() {
     $cards.forEach((card) => {
-      const randomPos = Math.floor(Math.random() * 12);
+      const randomPos = Math.floor(Math.random() * (numOfCards * 2));
       card.style.order = randomPos;
     });
   })();
