@@ -1,9 +1,6 @@
 <h1 align="center">The Last Of Us - Memory Game</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-<div align="center">
   <h3>
     <a href="https://diego5675.github.io/memory-game/">
       Demo
@@ -28,7 +25,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://user-images.githubusercontent.com/37351280/132427043-ed5458b2-d531-4d00-9dd6-d26bdbf00e7b.png)
 
 ### Built With
 
