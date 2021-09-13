@@ -2,11 +2,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://diego5675.github.io/memory-game/">
+    <a href="https://diegopascual.github.io/memory-game/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Diego5675/memory-game">
+    <a href="https://github.com/diegopascual/memory-game">
       Solution
     </a>
   </h3>
